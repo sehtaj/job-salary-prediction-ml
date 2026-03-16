@@ -9,12 +9,12 @@
 - [x] Outline the end-to-end ML workflow in `README.md`
 
 ## Stage 1 — Project Setup
-- [ ] Create the project folder structure
-- [ ] Create the `data/`, `notebooks/`, `src/`, `models/`, and `results/` directories
-- [ ] Set up a Python virtual environment
-- [ ] Install required libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
-- [ ] Create starter Python files in `src/`
-- [ ] Verify that the project runs without import errors
+- [x] Create the project folder structure
+- [x] Create the `data/`, `notebooks/`, `src/`, `models/`, and `results/` directories
+- [x] Set up a Python virtual environment
+- [x] Install required libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
+- [x] Create starter Python files in `src/`
+- [x] Verify that the project runs without import errors
 
 ## Stage 2 — Data Loading
 - [ ] Place the dataset inside the appropriate data folder
