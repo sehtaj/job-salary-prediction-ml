@@ -35,14 +35,14 @@
 - [x] Document EDA findings in a notebook or markdown file
 
 ## Stage 4 — Data Cleaning
-- [ ] Check for missing values in each column
-- [ ] Decide how to handle missing numerical values
-- [ ] Decide how to handle missing categorical values
-- [ ] Remove or fix duplicate records if present
-- [ ] Standardize inconsistent text values in categorical columns
-- [ ] Validate salary-related columns (`min_salary`, `max_salary`, `avg_salary`)
-- [ ] Confirm that cleaned data is ready for modeling
-- [ ] Save the cleaned dataset to `data/processed/`
+- [x] Check for missing values in each column
+- [x] Decide how to handle missing numerical values
+- [x] Decide how to handle missing categorical values
+- [x] Remove or fix duplicate records if present
+- [x] Standardize inconsistent text values in categorical columns
+- [x] Validate salary-related columns (`min_salary`, `max_salary`, `avg_salary`)
+- [x] Confirm that cleaned data is ready for modeling
+- [x] Save the cleaned dataset to `data/processed/`
 
 ## Stage 5 — Feature Engineering
 - [ ] Select the most relevant input features
