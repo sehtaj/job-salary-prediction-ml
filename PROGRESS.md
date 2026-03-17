@@ -25,14 +25,14 @@
 - [x] Check whether the target column `avg_salary` is present
 
 ## Stage 3 — Exploratory Data Analysis
-- [ ] Generate summary statistics for numerical features
-- [ ] Review categorical feature distributions
-- [ ] Visualize the distribution of `avg_salary`
-- [ ] Explore relationships between salary and key numerical features
-- [ ] Explore relationships between salary and categorical features
-- [ ] Check correlations among numerical columns
-- [ ] Identify possible outliers or unusual values
-- [ ] Document EDA findings in a notebook or markdown file
+- [x] Generate summary statistics for numerical features
+- [x] Review categorical feature distributions
+- [x] Visualize the distribution of `avg_salary`
+- [x] Explore relationships between salary and key numerical features
+- [x] Explore relationships between salary and categorical features
+- [x] Check correlations among numerical columns
+- [x] Identify possible outliers or unusual values
+- [x] Document EDA findings in a notebook or markdown file
 
 ## Stage 4 — Data Cleaning
 - [ ] Check for missing values in each column
