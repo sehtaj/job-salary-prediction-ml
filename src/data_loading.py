@@ -31,6 +31,22 @@ def load_dataset(file_path: str | Path | None = None) -> pd.DataFrame:
     return pd.read_csv(dataset_path)
 
 
-if __name__ == "__main__":
-    df = load_dataset()
+def inspect_dataset(file_path: str | Path | None = None) -> pd.DataFrame:
+    """Load the dataset and print the first-pass inspection details."""
+    df = load_dataset(file_path)
+
+    print(f"Dataset shape: {df.shape}")
+    print("\nColumns:")
+    print(df.columns.tolist())
+    print("\nData types:")
+    print(df.dtypes)
+    print("\nFirst five rows:")
     print(df.head())
+    print(f"\nTarget column 'avg_salary' present: {'avg_salary' in df.columns}")
+
+    return df
+
+
+if __name__ == "__main__":
+    df = inspect_dataset()
+    print(f"Loaded dataset from: {DEFAULT_DATASET_PATH}")

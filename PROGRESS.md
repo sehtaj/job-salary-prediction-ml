@@ -20,9 +20,9 @@
 - [x] Place the dataset inside the appropriate data folder
 - [x] Implement data loading logic in `src/data_loading.py`
 - [x] Load the CSV file using pandas
-- [ ] Inspect dataset shape, column names, and data types
-- [ ] Preview the first few rows of the dataset
-- [ ] Check whether the target column `avg_salary` is present
+- [x] Inspect dataset shape, column names, and data types
+- [x] Preview the first few rows of the dataset
+- [x] Check whether the target column `avg_salary` is present
 
 ## Stage 3 — Exploratory Data Analysis
 - [ ] Generate summary statistics for numerical features
