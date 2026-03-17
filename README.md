@@ -1,6 +1,6 @@
 # Predicting Job Salaries Using Machine Learning
 
-This project uses machine learning to predict job salaries from job posting and company attributes in `salary_data_cleaned.csv`.
+This project uses machine learning to predict job salaries from job posting and company attributes in `data/raw/salary_data_cleaned.csv`.
 
 ## Project Objective
 
@@ -8,7 +8,7 @@ The objective is to build regression models that predict the target variable `av
 
 ## Dataset
 
-- File: `salary_data_cleaned.csv`
+- File: `data/raw/salary_data_cleaned.csv`
 - Target variable: `avg_salary`
 
 ## Important Features

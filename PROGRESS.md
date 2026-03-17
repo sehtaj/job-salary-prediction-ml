@@ -17,7 +17,7 @@
 - [x] Verify that the project runs without import errors
 
 ## Stage 2 — Data Loading
-- [ ] Place the dataset inside the appropriate data folder
+- [x] Place the dataset inside the appropriate data folder
 - [ ] Implement data loading logic in `src/data_loading.py`
 - [ ] Load the CSV file using pandas
 - [ ] Inspect dataset shape, column names, and data types

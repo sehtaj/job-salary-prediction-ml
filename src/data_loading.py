@@ -4,6 +4,8 @@ from pathlib import Path
 
 import pandas as pd
 
+DEFAULT_DATASET_PATH = Path("data/raw/salary_data_cleaned.csv")
+
 
 def load_dataset(file_path: str | Path) -> pd.DataFrame:
     """Load a CSV dataset into a pandas DataFrame."""
@@ -12,5 +14,5 @@ def load_dataset(file_path: str | Path) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    df = load_dataset("salary_data_cleaned.csv")
+    df = load_dataset(DEFAULT_DATASET_PATH)
     print(df.head())
