@@ -18,8 +18,8 @@
 
 ## Stage 2 — Data Loading
 - [x] Place the dataset inside the appropriate data folder
-- [ ] Implement data loading logic in `src/data_loading.py`
-- [ ] Load the CSV file using pandas
+- [x] Implement data loading logic in `src/data_loading.py`
+- [x] Load the CSV file using pandas
 - [ ] Inspect dataset shape, column names, and data types
 - [ ] Preview the first few rows of the dataset
 - [ ] Check whether the target column `avg_salary` is present
