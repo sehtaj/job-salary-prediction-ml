@@ -45,14 +45,14 @@
 - [x] Save the cleaned dataset to `data/processed/`
 
 ## Stage 5 — Feature Engineering
-- [ ] Select the most relevant input features
-- [ ] Confirm whether salary-derived columns should remain as predictors
-- [ ] Create or refine company-related features such as `company_age`
-- [ ] Use skill indicator columns (`python_yn`, `R_yn`, `spark`, `aws`, `excel`) effectively
-- [ ] Consider extracting useful information from `Job Title`
-- [ ] Consider extracting state or region information from `Location`
-- [ ] Remove features that do not add modeling value
-- [ ] Save the feature-engineered dataset
+- [x] Select the most relevant input features
+- [x] Confirm whether salary-derived columns should remain as predictors
+- [x] Create or refine company-related features such as `company_age`
+- [x] Use skill indicator columns (`python_yn`, `R_yn`, `spark`, `aws`, `excel`) effectively
+- [x] Consider extracting useful information from `Job Title`
+- [x] Consider extracting state or region information from `Location`
+- [x] Remove features that do not add modeling value
+- [x] Save the feature-engineered dataset
 
 ## Stage 6 — Feature Encoding
 - [ ] Separate numerical and categorical features
