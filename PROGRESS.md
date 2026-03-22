@@ -88,12 +88,12 @@
 - [x] Save evaluation results to `results/`
 
 ## Stage 10 — Feature Importance Analysis
-- [ ] Extract coefficients from the Linear Regression model
-- [ ] Extract feature importances from the Random Forest model
-- [ ] Match importance values to feature names
-- [ ] Visualize the most influential features
-- [ ] Interpret which job attributes most affect salary predictions
-- [ ] Document feature importance insights
+- [x] Extract coefficients from the Linear Regression model
+- [x] Extract feature importances from the Random Forest model
+- [x] Match importance values to feature names
+- [x] Visualize the most influential features
+- [x] Interpret which job attributes most affect salary predictions
+- [x] Document feature importance insights
 
 ## Stage 11 — Prediction System
 - [ ] Build a reusable prediction pipeline
