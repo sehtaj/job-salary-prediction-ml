@@ -12,9 +12,9 @@
 - Binary fields accept 0/1, yes/no, and true/false style input.
 
 ## Sample Prediction Results
-- `complete_sample` predicted salary: 157.64
+- `complete_sample` predicted salary: 158.86
 - `complete_sample` warnings: none
-- `incomplete_sample` predicted salary: 74.25
+- `incomplete_sample` predicted salary: 73.21
 - `incomplete_sample` warnings: Missing `Job Description`; used the dataset-default `sql_yn` value. | Missing `Job Description`; used the dataset-default `tableau_yn` value. | Filled missing predictor fields with dataset defaults: R_yn, Revenue, Sector, Size, Type of ownership, company_age, excel, hourly, spark, sql_yn, tableau_yn
 
 ## Notes

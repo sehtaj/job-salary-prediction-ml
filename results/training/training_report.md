@@ -15,9 +15,15 @@
 - `LassoCV` as the L1-regularized linear model
 - `RandomForestRegressor` as the nonlinear tabular baseline
 
-## Regularized Linear Model Search Space
+## Ridge Search Configuration
+- `alpha_count=81`
+- `alpha_min=0.0001`
+- `alpha_max=10000.0`
+- `cross_validation=10-fold shuffled CV`
+- Ridge selected alpha: 7.943282347242821
+
+## Lasso Search Configuration
 - `alphas=[0.001, 0.01, 0.1, 1.0, 10.0, 100.0]`
-- Ridge selected alpha: 10.0
 - Lasso selected alpha: 1.0
 
 ## Random Forest Configuration
@@ -35,5 +41,6 @@
 
 ## Notes
 - The Linear Regression model provides a simple baseline for comparison.
+- Ridge now uses a denser logarithmic alpha grid with shuffled 10-fold cross-validation to make regularization tuning more stable.
 - The Random Forest hyperparameters were chosen as a strong initial baseline and can be tuned later if evaluation suggests it.
 - Final model comparison happens in Stage 9 using the held-out test set.
