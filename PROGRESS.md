@@ -96,19 +96,19 @@
 - [x] Document feature importance insights
 
 ## Stage 11 — Prediction System
-- [ ] Build a reusable prediction pipeline
-- [ ] Ensure preprocessing and model inference are connected
-- [ ] Create a function to predict salary for new job inputs
-- [ ] Validate predictions on sample input data
-- [ ] Handle invalid or incomplete user input gracefully
-- [ ] Save or expose the final prediction workflow for reuse
+- [x] Build a reusable prediction pipeline
+- [x] Ensure preprocessing and model inference are connected
+- [x] Create a function to predict salary for new job inputs
+- [x] Validate predictions on sample input data
+- [x] Handle invalid or incomplete user input gracefully
+- [x] Save or expose the final prediction workflow for reuse
 
 ## Stage 12 — Final Project Outputs
-- [ ] Finalize all source files in `src/`
-- [ ] Clean up notebooks and remove unused code
-- [ ] Update `README.md` with project overview, setup steps, and results
-- [ ] Summarize key findings and model performance
-- [ ] Organize saved models, processed data, and result files
-- [ ] Review the full project structure for completeness
-- [ ] Confirm the project can be reproduced end to end
-- [ ] Mark completed items in this tracker as progress is made
+- [x] Finalize all source files in `src/`
+- [x] Clean up notebooks and remove unused code
+- [x] Update `README.md` with project overview, setup steps, and results
+- [x] Summarize key findings and model performance
+- [x] Organize saved models, processed data, and result files
+- [x] Review the full project structure for completeness
+- [x] Confirm the project can be reproduced end to end
+- [x] Mark completed items in this tracker as progress is made

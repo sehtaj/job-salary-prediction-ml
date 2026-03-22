@@ -1,7 +1,7 @@
 # Evaluation Report
 
 ## Stage 9 Scope
-- This report compares the Version 1 baseline models on the held-out test set.
+- This report compares the two Version 1 baseline models on the held-out test set.
 - The best model is selected primarily by the lowest RMSE, with MSE and R² also reported.
 
 ## Model Metrics
@@ -16,7 +16,6 @@
 - Best MSE: 975.7049
 - Best R²: 0.4102
 - Better regularized model between Ridge and Lasso: `ridge_regression`
-- Lasso performed worse as a predictor here, but it remains useful as a sparsity-oriented comparison because L1 regularization can highlight which encoded features matter most.
 
 ## Saved Outputs
 - Metrics table: `results/evaluation/model_metrics.csv`

@@ -2,7 +2,7 @@
 
 ## Stage 8 Scope
 - This report documents baseline model training for Version 1.
-- All baseline models were trained inside sklearn Pipelines so preprocessing stays attached to each model artifact.
+- Both models were trained inside sklearn Pipelines so preprocessing stays attached to the model artifact.
 
 ## Training Data
 - X_train shape: (373, 18)
@@ -35,7 +35,5 @@
 
 ## Notes
 - The Linear Regression model provides a simple baseline for comparison.
-- Ridge was included as the main regularized linear model.
-- Lasso was included as a comparison model because it can zero out weaker coefficients and provide feature-selection-style insight.
 - The Random Forest hyperparameters were chosen as a strong initial baseline and can be tuned later if evaluation suggests it.
 - Final model comparison happens in Stage 9 using the held-out test set.
