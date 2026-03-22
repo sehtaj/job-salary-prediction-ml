@@ -30,6 +30,8 @@ The objective is to build regression models that predict the target variable `av
 ## Models Planned
 
 - Linear Regression
+- Ridge Regression
+- Lasso Regression
 - Random Forest Regressor
 
 ## Evaluation Metrics
@@ -46,7 +48,7 @@ Data Loading
 -> Feature Engineering
 -> Feature Encoding
 -> Train/Test Split
--> Model Training (Linear Regression, Random Forest)
+-> Model Training (Linear Regression, Ridge, Lasso, Random Forest)
 -> Model Evaluation (MSE, RMSE, R2)
 -> Feature Importance Analysis
 -> Salary Prediction

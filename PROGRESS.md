@@ -78,14 +78,14 @@
 - [x] Save trained model artifacts to `models/`
 
 ## Stage 9 — Model Evaluation
-- [ ] Implement evaluation logic in `src/evaluate_model.py`
-- [ ] Generate predictions on the test set
-- [ ] Calculate MSE for each model
-- [ ] Calculate RMSE for each model
-- [ ] Calculate R2 score for each model
-- [ ] Compare model performance side by side
-- [ ] Identify the best-performing model
-- [ ] Save evaluation results to `results/`
+- [x] Implement evaluation logic in `src/evaluate_model.py`
+- [x] Generate predictions on the test set
+- [x] Calculate MSE for each model
+- [x] Calculate RMSE for each model
+- [x] Calculate R2 score for each model
+- [x] Compare model performance side by side
+- [x] Identify the best-performing model
+- [x] Save evaluation results to `results/`
 
 ## Stage 10 — Feature Importance Analysis
 - [ ] Extract coefficients from the Linear Regression model
