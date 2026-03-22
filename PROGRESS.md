@@ -70,12 +70,12 @@
 - [x] Store split datasets or pipeline objects if needed
 
 ## Stage 8 — Model Training
-- [ ] Implement baseline training logic in `src/train_model.py`
-- [ ] Train a Linear Regression model
-- [ ] Train a Random Forest Regressor model
-- [ ] Tune key Random Forest hyperparameters if needed
-- [ ] Compare training workflows for both models
-- [ ] Save trained model artifacts to `models/`
+- [x] Implement baseline training logic in `src/train_model.py`
+- [x] Train a Linear Regression model
+- [x] Train a Random Forest Regressor model
+- [x] Tune key Random Forest hyperparameters if needed
+- [x] Compare training workflows for both models
+- [x] Save trained model artifacts to `models/`
 
 ## Stage 9 — Model Evaluation
 - [ ] Implement evaluation logic in `src/evaluate_model.py`
