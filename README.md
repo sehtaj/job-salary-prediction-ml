@@ -27,13 +27,14 @@ Best final model:
 - `Ridge Regression`
 
 Held-out test metrics for the best model:
-- `MSE = 975.7049`
-- `RMSE = 31.2363`
-- `R² = 0.4102`
+- `MSE = 962.6841`
+- `RMSE = 31.0272`
+- `R² = 0.4181`
 
 ## Key Results
 
 - `Ridge Regression` performed best on the test set and became the final selected Version 1 model.
+- A denser Ridge alpha search with shuffled 10-fold cross-validation improved the final Ridge result slightly over the earlier baseline.
 - `Lasso Regression` underperformed Ridge on prediction accuracy, but it remains useful as a sparsity-oriented comparison model.
 - `Random Forest` did not outperform the regularized linear models on this dataset.
 - Feature-importance analysis showed that job title grouping, job seniority, state/location, industry, revenue, and other company-context features were the strongest drivers of salary prediction.

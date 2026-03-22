@@ -19,9 +19,9 @@ The project includes:
 ## Best Model
 
 - Selected model: `ridge_regression`
-- MSE: `975.7049`
-- RMSE: `31.2363`
-- R²: `0.4102`
+- MSE: `962.6841`
+- RMSE: `31.0272`
+- R²: `0.4181`
 
 ## Model Ranking
 
@@ -33,6 +33,7 @@ The project includes:
 ## Key Findings
 
 - Regularized linear modeling worked better than the tree-based baseline on this dataset.
+- A denser Ridge alpha search with shuffled 10-fold cross-validation improved the final Ridge result slightly.
 - Job title grouping, job seniority, and job state were some of the strongest salary signals.
 - Industry, revenue, size, sector, and company age also contributed meaningful signal.
 - Skill flags helped, but title and company-context features had larger influence overall.
