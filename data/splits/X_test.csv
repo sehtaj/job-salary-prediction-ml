@@ -1,0 +1,95 @@
+Rating,Size,Industry,Sector,Revenue,Type of ownership,job_state,hourly,python_yn,R_yn,spark,aws,excel,company_age,job_title_group,job_seniority,sql_yn,tableau_yn
+4.7,51 to 200 employees,IT Services,Information Technology,Unknown,Company - Private,MO,0,1,0,1,0,0,4.0,data_scientist,mid,1,0
+3.1,201 to 500 employees,Advertising & Marketing,Business Services,$100 to $500 million (USD),Company - Public,MA,0,1,0,0,0,0,21.0,data_scientist,mid,1,1
+4.2,201 to 500 employees,IT Services,Information Technology,Unknown,Company - Private,CA,0,1,0,0,0,1,12.0,data_analyst,mid,1,1
+4.3,1001 to 5000 employees,Enterprise Software & Network Solutions,Information Technology,$500 million to $1 billion (USD),Company - Public,NY,0,0,0,0,1,1,21.0,other,mid,1,0
+4.3,201 to 500 employees,Enterprise Software & Network Solutions,Information Technology,Unknown,Company - Private,CA,0,1,0,1,1,1,9.0,data_engineer,mid,0,0
+3.2,1001 to 5000 employees,Lending,Finance,$500 million to $1 billion (USD),Company - Public,CA,0,1,0,0,1,1,12.0,data_engineer,mid,1,1
+4.7,201 to 500 employees,Consulting,Business Services,$50 to $100 million (USD),Company - Private,NY,0,1,0,0,0,1,28.0,other,mid,1,1
+4.6,51 to 200 employees,Internet,Information Technology,$100 to $500 million (USD),Company - Private,NY,0,1,0,1,0,0,11.0,data_scientist,mid,0,0
+3.7,5001 to 10000 employees,Insurance Carriers,Insurance,$5 to $10 billion (USD),Company - Public,MA,0,1,0,0,0,1,168.0,data_scientist,lead,1,0
+3.9,201 to 500 employees,Internet,Information Technology,$10 to $25 million (USD),Company - Private,CA,0,0,0,0,0,0,13.0,data_engineer,senior,1,0
+4.7,201 to 500 employees,Advertising & Marketing,Business Services,$25 to $50 million (USD),Company - Private,PA,0,0,0,0,0,1,23.0,data_analyst,entry,0,0
+1.9,51 to 200 employees,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10 to $25 million (USD),Company - Private,MA,0,0,0,0,1,0,20.0,research_scientist,mid,0,0
+4.0,501 to 1000 employees,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown,Company - Private,CA,0,0,0,0,1,1,14.0,data_scientist,senior,0,0
+4.2,501 to 1000 employees,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),Company - Private,FL,0,1,0,1,0,1,12.0,data_scientist,mid,1,0
+3.7,5001 to 10000 employees,Aerospace & Defense,Aerospace & Defense,$2 to $5 billion (USD),Company - Public,VA,0,1,0,1,0,0,25.0,data_engineer,mid,1,0
+3.2,501 to 1000 employees,Research & Development,Business Services,Unknown,Company - Private,NY,0,1,0,0,1,1,17.0,data_engineer,mid,1,0
+3.5,501 to 1000 employees,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown,Company - Private,AZ,0,1,0,1,0,0,23.0,data_engineer,mid,0,0
+3.7,1001 to 5000 employees,Computer Hardware & Software,Information Technology,$50 to $100 million (USD),Subsidiary or Business Segment,CA,0,1,0,1,1,0,32.0,data_engineer,mid,0,0
+3.8,1001 to 5000 employees,Insurance Carriers,Insurance,$2 to $5 billion (USD),Company - Private,IL,0,1,0,1,0,1,95.0,data_engineer,mid,1,0
+3.9,51 to 200 employees,Health Care Services & Hospitals,Health Care,$1 to $5 million (USD),Company - Private,CA,0,1,0,0,0,0,4.0,data_scientist,mid,1,0
+3.8,501 to 1000 employees,Aerospace & Defense,Aerospace & Defense,$50 to $100 million (USD),Company - Private,NM,0,1,0,0,0,1,47.0,data_scientist,mid,0,1
+4.1,1 to 50 employees,IT Services,Information Technology,Unknown,Company - Private,MD,0,1,0,0,0,0,13.0,data_scientist,lead,0,0
+4.1,5001 to 10000 employees,Research & Development,Business Services,$1 to $2 billion (USD),Company - Public,VA,0,0,0,0,0,0,52.0,data_scientist,mid,1,0
+3.75,Unknown,Unknown,Unknown,Unknown,Company - Private,MA,0,0,0,0,0,0,25.0,research_scientist,principal,0,0
+4.4,10000+ employees,IT Services,Information Technology,$500 million to $1 billion (USD),Company - Private,CA,0,1,0,0,0,1,25.0,data_scientist,mid,0,0
+2.7,201 to 500 employees,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),Company - Private,MD,0,0,0,0,0,1,59.0,data_scientist,mid,0,0
+4.7,51 to 200 employees,Security Services,Business Services,$10 to $25 million (USD),Company - Private,TX,0,1,0,1,0,0,10.0,data_engineer,senior,1,0
+4.7,51 to 200 employees,Staffing & Outsourcing,Business Services,$1 to $5 million (USD),Company - Private,CA,0,1,0,0,1,0,14.0,data_engineer,lead,0,0
+3.8,10000+ employees,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),Company - Public,MA,0,1,0,0,0,0,24.0,machine_learning,mid,0,0
+3.3,501 to 1000 employees,Health Care Services & Hospitals,Health Care,Unknown,Nonprofit Organization,DC,0,0,0,0,0,1,137.0,data_analyst,entry,1,1
+4.7,51 to 200 employees,Aerospace & Defense,Aerospace & Defense,$25 to $50 million (USD),Company - Private,AL,0,1,0,0,0,1,24.0,data_analyst,mid,0,0
+3.8,1001 to 5000 employees,Banks & Credit Unions,Finance,$1 to $2 billion (USD),Company - Public,WI,0,0,0,0,1,1,150.0,data_analyst,mid,0,0
+4.0,501 to 1000 employees,Consumer Product Rental,Consumer Services,Unknown,Company - Private,NY,0,1,0,0,0,1,13.0,data_scientist,mid,1,0
+3.2,5001 to 10000 employees,Federal Agencies,Government,$1 to $2 billion (USD),Nonprofit Organization,VA,0,1,0,0,0,1,62.0,data_scientist,mid,1,1
+4.2,51 to 200 employees,Enterprise Software & Network Solutions,Information Technology,Unknown,Company - Private,CA,0,0,0,0,0,0,10.0,data_scientist,mid,1,0
+3.6,1 to 50 employees,Unknown,Unknown,Less than $1 million (USD),Company - Private,MA,0,0,0,0,0,1,25.0,data_engineer,mid,1,0
+4.3,51 to 200 employees,Computer Hardware & Software,Information Technology,$10 to $25 million (USD),Company - Private,IL,0,0,0,0,0,1,12.0,data_analyst,mid,1,0
+3.1,1001 to 5000 employees,Mining,Mining & Metals,$1 to $2 billion (USD),Company - Private,PA,0,1,0,0,0,0,160.0,data_scientist,mid,0,0
+4.2,10000+ employees,Religious Organizations,Non-Profit,Unknown,Nonprofit Organization,UT,0,0,0,0,1,1,25.0,data_engineer,mid,0,0
+2.7,201 to 500 employees,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),Company - Private,MD,0,0,0,0,0,0,59.0,data_scientist,mid,0,0
+4.3,201 to 500 employees,Enterprise Software & Network Solutions,Information Technology,$25 to $50 million (USD),Company - Private,AZ,0,0,0,0,0,1,10.0,data_analyst,senior,1,0
+4.0,51 to 200 employees,Architectural & Engineering Services,Business Services,$25 to $50 million (USD),Unknown,AL,0,0,0,0,0,0,20.0,data_scientist,mid,0,0
+4.3,51 to 200 employees,Real Estate,Real Estate,Unknown,Company - Private,CA,0,0,0,0,0,1,7.0,data_analyst,mid,1,0
+3.5,1001 to 5000 employees,TV Broadcast & Cable Networks,Media,$500 million to $1 billion (USD),Company - Public,OH,0,1,0,0,0,0,142.0,data_scientist,mid,0,1
+3.3,10000+ employees,Insurance Carriers,Insurance,$10+ billion (USD),Company - Private,IL,0,1,0,0,0,0,108.0,leadership,director,0,0
+4.4,201 to 500 employees,Architectural & Engineering Services,Business Services,$25 to $50 million (USD),Company - Private,SC,0,0,0,0,0,0,91.0,data_scientist,mid,0,0
+4.4,1 to 50 employees,Internet,Information Technology,Unknown,Company - Private,CA,0,1,0,0,0,0,8.0,data_scientist,senior,1,0
+5.0,51 to 200 employees,Computer Hardware & Software,Information Technology,Unknown,Company - Private,MI,0,0,0,0,0,1,9.0,data_scientist,senior,0,0
+3.9,51 to 200 employees,Computer Hardware & Software,Information Technology,Unknown,Company - Public,CA,0,1,0,0,0,0,12.0,data_analyst,senior,1,1
+4.0,5001 to 10000 employees,Computer Hardware & Software,Information Technology,$2 to $5 billion (USD),Company - Public,CA,0,1,0,1,0,1,38.0,data_engineer,principal,1,0
+3.6,1001 to 5000 employees,Advertising & Marketing,Business Services,Unknown,Company - Private,NJ,0,1,0,0,1,1,31.0,data_scientist,mid,1,1
+3.2,1 to 50 employees,Staffing & Outsourcing,Business Services,$5 to $10 million (USD),Company - Private,PA,0,0,0,0,0,1,25.0,leadership,mid,0,0
+4.3,1 to 50 employees,Aerospace & Defense,Aerospace & Defense,Unknown,Company - Private,CO,0,1,0,1,1,1,13.0,machine_learning,mid,0,0
+3.4,201 to 500 employees,Telecommunications Manufacturing,Telecommunications,$50 to $100 million (USD),Company - Public,FL,0,0,0,0,0,0,29.0,data_analyst,mid,0,0
+4.0,10000+ employees,Computer Hardware & Software,Information Technology,Unknown,Company - Public,OR,0,0,0,0,0,0,81.0,data_engineer,mid,0,0
+4.0,1001 to 5000 employees,Health Care Services & Hospitals,Health Care,$50 to $100 million (USD),Hospital,TX,1,0,0,0,1,0,43.0,data_scientist,mid,0,0
+4.5,5001 to 10000 employees,Aerospace & Defense,Aerospace & Defense,$1 to $2 billion (USD),Nonprofit Organization,MD,0,1,0,0,0,1,78.0,data_scientist,mid,0,0
+4.2,501 to 1000 employees,Health Care Services & Hospitals,Health Care,Unknown,Company - Private,CA,0,1,0,0,0,1,9.0,leadership,mid,1,0
+3.2,501 to 1000 employees,Enterprise Software & Network Solutions,Information Technology,Unknown,Subsidiary or Business Segment,CA,0,0,0,0,1,1,14.0,data_scientist,principal,0,0
+4.6,51 to 200 employees,Consulting,Business Services,$5 to $10 million (USD),Company - Private,MA,0,1,0,1,1,0,25.0,data_scientist,mid,1,1
+1.9,201 to 500 employees,"Department, Clothing, & Shoe Stores",Retail,$100 to $500 million (USD),Company - Private,NY,0,1,0,0,0,1,10.0,data_analyst,senior,1,0
+3.9,201 to 500 employees,Internet,Information Technology,$10 to $25 million (USD),Company - Private,CA,0,1,0,1,0,0,13.0,leadership,mid,1,0
+2.6,10000+ employees,Colleges & Universities,Education,Unknown,Company - Private,CA,0,1,0,0,0,0,23.0,data_scientist,mid,1,1
+2.4,501 to 1000 employees,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$50 to $100 million (USD),Company - Private,CA,0,0,0,0,0,0,14.0,data_scientist,mid,0,0
+3.3,10000+ employees,Insurance Carriers,Insurance,$10+ billion (USD),Company - Private,IL,0,1,0,0,0,0,108.0,leadership,director,0,0
+3.9,201 to 500 employees,Internet,Information Technology,$10 to $25 million (USD),Company - Private,CA,0,1,0,1,0,0,13.0,machine_learning,mid,1,0
+4.4,201 to 500 employees,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown,Company - Public,MA,0,0,0,0,0,1,17.0,leadership,director,0,0
+2.9,1001 to 5000 employees,Consumer Products Manufacturing,Manufacturing,$1 to $2 billion (USD),Company - Private,CA,0,0,0,0,0,1,49.0,data_scientist,entry,0,0
+3.0,5001 to 10000 employees,Insurance Carriers,Insurance,$5 to $10 billion (USD),Company - Private,PA,0,0,0,0,0,1,37.0,data_analyst,senior,1,1
+4.2,10000+ employees,Religious Organizations,Non-Profit,Unknown,Nonprofit Organization,UT,0,0,0,0,0,0,25.0,data_analyst,mid,1,1
+3.6,1001 to 5000 employees,Motion Picture Production & Distribution,Media,Unknown,Subsidiary or Business Segment,NJ,0,0,0,0,0,1,25.0,data_engineer,mid,0,0
+4.6,51 to 200 employees,Research & Development,Business Services,$5 to $10 million (USD),Subsidiary or Business Segment,MA,0,0,0,0,1,1,29.0,research_scientist,senior,0,0
+4.8,1 to 50 employees,IT Services,Information Technology,Unknown,Company - Private,NY,0,1,0,0,0,1,9.0,data_scientist,mid,1,1
+4.0,501 to 1000 employees,Insurance Carriers,Insurance,$500 million to $1 billion (USD),Nonprofit Organization,CO,0,1,0,0,0,1,105.0,data_scientist,mid,1,0
+4.3,5001 to 10000 employees,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),Company - Private,NC,0,1,0,1,1,0,30.0,data_engineer,senior,0,0
+4.7,1001 to 5000 employees,Lending,Finance,Unknown,Company - Private,MO,0,0,0,1,0,1,18.0,other,mid,1,1
+4.4,201 to 500 employees,Metals Brokers,Mining & Metals,Unknown,Subsidiary or Business Segment,OH,0,1,0,0,1,0,135.0,data_scientist,senior,1,1
+3.6,5001 to 10000 employees,Insurance Carriers,Insurance,$10+ billion (USD),Company - Private,MA,0,0,0,0,0,1,169.0,leadership,mid,0,0
+3.8,501 to 1000 employees,Insurance Carriers,Insurance,$500 million to $1 billion (USD),Company - Private,MD,0,1,0,0,0,1,39.0,data_scientist,mid,1,1
+3.1,1001 to 5000 employees,Video Games,Media,$10+ billion (USD),Company - Public,CA,0,1,0,1,1,1,23.0,data_engineer,mid,1,0
+2.7,1 to 50 employees,Enterprise Software & Network Solutions,Information Technology,Unknown,Company - Private,CA,0,0,0,1,1,0,9.0,data_engineer,senior,0,0
+4.3,51 to 200 employees,Computer Hardware & Software,Information Technology,Unknown,Company - Private,CA,0,1,0,1,0,1,12.0,data_scientist,senior,0,0
+3.2,1001 to 5000 employees,Computer Hardware & Software,Information Technology,Unknown,Company - Private,NY,0,1,0,0,1,1,45.0,machine_learning,mid,1,0
+4.0,10000+ employees,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),Company - Public,MA,0,1,0,0,1,1,171.0,data_scientist,mid,0,0
+2.8,501 to 1000 employees,Social Assistance,Non-Profit,$50 to $100 million (USD),Nonprofit Organization,CA,0,0,0,0,0,1,25.0,data_analyst,mid,0,0
+3.7,201 to 500 employees,IT Services,Information Technology,$25 to $50 million (USD),Company - Private,MD,0,1,0,0,0,1,14.0,data_scientist,mid,0,0
+3.9,51 to 200 employees,Financial Analytics & Research,Finance,$50 to $100 million (USD),Company - Private,CA,0,1,0,0,0,1,11.0,data_scientist,lead,1,0
+4.3,1001 to 5000 employees,Real Estate,Real Estate,$2 to $5 billion (USD),Company - Public,IL,0,1,0,1,0,1,27.0,data_scientist,senior,1,1
+2.9,1001 to 5000 employees,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown,Company - Private,NY,0,0,0,0,0,1,5.0,data_scientist,entry,0,0
+4.4,201 to 500 employees,Consulting,Business Services,$50 to $100 million (USD),Company - Private,IL,0,1,0,0,1,1,12.0,data_scientist,senior,1,1
+3.5,10000+ employees,Computer Hardware & Software,Information Technology,$10+ billion (USD),Company - Public,CA,0,1,0,1,1,0,50.0,data_engineer,senior,1,0
+3.4,51 to 200 employees,Advertising & Marketing,Business Services,$10 to $25 million (USD),Company - Private,IL,0,0,0,0,0,0,28.0,data_scientist,mid,1,0
+4.8,1001 to 5000 employees,Insurance Carriers,Insurance,$1 to $2 billion (USD),Company - Private,WI,0,0,0,0,0,0,95.0,data_scientist,senior,0,0
+4.8,501 to 1000 employees,Security Services,Business Services,$100 to $500 million (USD),Company - Private,FL,0,1,0,0,0,1,10.0,data_analyst,senior,1,0

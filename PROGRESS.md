@@ -63,11 +63,11 @@
 - [x] Verify the final feature matrix shape
 
 ## Stage 7 — Train/Test Split
-- [ ] Define feature matrix `X` and target vector `y`
-- [ ] Split the dataset into training and testing sets
-- [ ] Set a fixed `random_state` for reproducibility
-- [ ] Verify the shapes of train and test datasets
-- [ ] Store split datasets or pipeline objects if needed
+- [x] Define feature matrix `X` and target vector `y`
+- [x] Split the dataset into training and testing sets
+- [x] Set a fixed `random_state` for reproducibility
+- [x] Verify the shapes of train and test datasets
+- [x] Store split datasets or pipeline objects if needed
 
 ## Stage 8 — Model Training
 - [ ] Implement baseline training logic in `src/train_model.py`
