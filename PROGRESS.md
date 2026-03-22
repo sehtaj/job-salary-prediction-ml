@@ -55,12 +55,12 @@
 - [x] Save the feature-engineered dataset
 
 ## Stage 6 — Feature Encoding
-- [ ] Separate numerical and categorical features
-- [ ] Identify columns that require encoding
-- [ ] Apply one-hot encoding to categorical features
-- [ ] Ensure encoded features align between training and testing data
-- [ ] Build a preprocessing workflow for reuse
-- [ ] Verify the final feature matrix shape
+- [x] Separate numerical and categorical features
+- [x] Identify columns that require encoding
+- [x] Apply one-hot encoding to categorical features
+- [x] Ensure encoded features align between training and testing data
+- [x] Build a preprocessing workflow for reuse
+- [x] Verify the final feature matrix shape
 
 ## Stage 7 — Train/Test Split
 - [ ] Define feature matrix `X` and target vector `y`
