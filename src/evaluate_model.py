@@ -134,7 +134,7 @@ def build_evaluation_report(metrics_df: pd.DataFrame, best_model_name: str) -> s
         "# Evaluation Report",
         "",
         "## Stage 9 Scope",
-        "- This report compares the two Version 1 baseline models on the held-out test set.",
+        "- This report compares the Version 1 baseline models on the held-out test set.",
         "- The best model is selected primarily by the lowest RMSE, with MSE and R² also reported.",
         "",
         "## Model Metrics",

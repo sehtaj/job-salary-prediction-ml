@@ -10,8 +10,10 @@ from sklearn.pipeline import Pipeline
 
 from src.model_registry import (
     BASELINE_RANDOM_FOREST_PARAMS,
+    LASSO_REGULARIZATION_ALPHAS,
     RANDOM_STATE,
-    REGULARIZATION_ALPHAS,
+    RIDGE_CV,
+    RIDGE_REGULARIZATION_ALPHAS,
     get_baseline_models,
 )
 from src.preprocessing import build_preprocessor, get_feature_groups
@@ -90,9 +92,15 @@ def build_training_report(
         "- `LassoCV` as the L1-regularized linear model",
         "- `RandomForestRegressor` as the nonlinear tabular baseline",
         "",
-        "## Regularized Linear Model Search Space",
-        f"- `alphas={REGULARIZATION_ALPHAS}`",
+        "## Ridge Search Configuration",
+        f"- `alpha_count={len(RIDGE_REGULARIZATION_ALPHAS)}`",
+        f"- `alpha_min={RIDGE_REGULARIZATION_ALPHAS[0]}`",
+        f"- `alpha_max={RIDGE_REGULARIZATION_ALPHAS[-1]}`",
+        f"- `cross_validation={RIDGE_CV.get_n_splits()}-fold shuffled CV`",
         f"- Ridge selected alpha: {pipelines['ridge_regression'].named_steps['model'].alpha_}",
+        "",
+        "## Lasso Search Configuration",
+        f"- `alphas={LASSO_REGULARIZATION_ALPHAS}`",
         f"- Lasso selected alpha: {pipelines['lasso_regression'].named_steps['model'].alpha_}",
         "",
         "## Random Forest Configuration",
@@ -113,6 +121,7 @@ def build_training_report(
             "",
             "## Notes",
             "- The Linear Regression model provides a simple baseline for comparison.",
+            "- Ridge now uses a denser logarithmic alpha grid with shuffled 10-fold cross-validation to make regularization tuning more stable.",
             "- The Random Forest hyperparameters were chosen as a strong initial baseline and can be tuned later if evaluation suggests it.",
             "- Final model comparison happens in Stage 9 using the held-out test set.",
         ]

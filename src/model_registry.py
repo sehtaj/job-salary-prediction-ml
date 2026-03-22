@@ -2,11 +2,15 @@
 
 from __future__ import annotations
 
+import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LassoCV, LinearRegression, RidgeCV
+from sklearn.model_selection import KFold
 
 RANDOM_STATE = 42
-REGULARIZATION_ALPHAS = [0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
+RIDGE_REGULARIZATION_ALPHAS = np.logspace(-4, 4, 81)
+LASSO_REGULARIZATION_ALPHAS = [0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
+RIDGE_CV = KFold(n_splits=10, shuffle=True, random_state=RANDOM_STATE)
 BASELINE_RANDOM_FOREST_PARAMS = {
     "n_estimators": 300,
     "max_depth": None,
@@ -24,13 +28,17 @@ def build_linear_regression_model() -> LinearRegression:
 
 def build_ridge_regression_model() -> RidgeCV:
     """Return the regularized ridge regression baseline."""
-    return RidgeCV(alphas=REGULARIZATION_ALPHAS)
+    return RidgeCV(
+        alphas=RIDGE_REGULARIZATION_ALPHAS,
+        cv=RIDGE_CV,
+        scoring="neg_root_mean_squared_error",
+    )
 
 
 def build_lasso_regression_model() -> LassoCV:
     """Return the regularized lasso regression baseline."""
     return LassoCV(
-        alphas=REGULARIZATION_ALPHAS,
+        alphas=LASSO_REGULARIZATION_ALPHAS,
         cv=5,
         random_state=RANDOM_STATE,
         max_iter=20000,
