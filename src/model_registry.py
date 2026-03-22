@@ -3,9 +3,10 @@
 from __future__ import annotations
 
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LassoCV, LinearRegression, RidgeCV
 
 RANDOM_STATE = 42
+REGULARIZATION_ALPHAS = [0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
 BASELINE_RANDOM_FOREST_PARAMS = {
     "n_estimators": 300,
     "max_depth": None,
@@ -21,6 +22,21 @@ def build_linear_regression_model() -> LinearRegression:
     return LinearRegression()
 
 
+def build_ridge_regression_model() -> RidgeCV:
+    """Return the regularized ridge regression baseline."""
+    return RidgeCV(alphas=REGULARIZATION_ALPHAS)
+
+
+def build_lasso_regression_model() -> LassoCV:
+    """Return the regularized lasso regression baseline."""
+    return LassoCV(
+        alphas=REGULARIZATION_ALPHAS,
+        cv=5,
+        random_state=RANDOM_STATE,
+        max_iter=20000,
+    )
+
+
 def build_random_forest_model() -> RandomForestRegressor:
     """Return the baseline random forest regressor."""
     return RandomForestRegressor(**BASELINE_RANDOM_FOREST_PARAMS)
@@ -30,5 +46,7 @@ def get_baseline_models() -> dict[str, object]:
     """Return all baseline models used in Version 1."""
     return {
         "linear_regression": build_linear_regression_model(),
+        "ridge_regression": build_ridge_regression_model(),
+        "lasso_regression": build_lasso_regression_model(),
         "random_forest": build_random_forest_model(),
     }

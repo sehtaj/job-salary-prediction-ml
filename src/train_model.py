@@ -8,7 +8,12 @@ import joblib
 import pandas as pd
 from sklearn.pipeline import Pipeline
 
-from src.model_registry import BASELINE_RANDOM_FOREST_PARAMS, RANDOM_STATE, get_baseline_models
+from src.model_registry import (
+    BASELINE_RANDOM_FOREST_PARAMS,
+    RANDOM_STATE,
+    REGULARIZATION_ALPHAS,
+    get_baseline_models,
+)
 from src.preprocessing import build_preprocessor, get_feature_groups
 
 X_TRAIN_PATH = Path("data/splits/X_train.csv")
@@ -64,6 +69,7 @@ def build_training_report(
     X_train: pd.DataFrame,
     y_train: pd.Series,
     saved_paths: dict[str, Path],
+    pipelines: dict[str, Pipeline],
 ) -> str:
     """Summarize the Stage 8 training setup and saved artifacts."""
     lines = [
@@ -80,7 +86,14 @@ def build_training_report(
         "",
         "## Models Trained",
         "- `LinearRegression` as the interpretable baseline",
+        "- `RidgeCV` as the L2-regularized linear model",
+        "- `LassoCV` as the L1-regularized linear model",
         "- `RandomForestRegressor` as the nonlinear tabular baseline",
+        "",
+        "## Regularized Linear Model Search Space",
+        f"- `alphas={REGULARIZATION_ALPHAS}`",
+        f"- Ridge selected alpha: {pipelines['ridge_regression'].named_steps['model'].alpha_}",
+        f"- Lasso selected alpha: {pipelines['lasso_regression'].named_steps['model'].alpha_}",
         "",
         "## Random Forest Configuration",
         f"- `n_estimators={BASELINE_RANDOM_FOREST_PARAMS['n_estimators']}`",
@@ -117,7 +130,7 @@ def run_training_workflow() -> dict[str, object]:
 
     TRAINING_REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     TRAINING_REPORT_PATH.write_text(
-        build_training_report(X_train, y_train, saved_paths) + "\n",
+        build_training_report(X_train, y_train, saved_paths, pipelines) + "\n",
         encoding="utf-8",
     )
 

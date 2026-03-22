@@ -7,7 +7,7 @@ from pathlib import Path
 import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 FEATURE_DATASET_PATH = Path("data/processed/salary_data_features_v1.csv")
 PREPROCESSING_REPORT_PATH = Path("results/preprocessing/preprocessing_report.md")
@@ -41,7 +41,7 @@ def build_preprocessor(
     """Build a reusable preprocessing workflow for baseline models."""
     return ColumnTransformer(
         transformers=[
-            ("numerical", "passthrough", numerical_features),
+            ("numerical", StandardScaler(), numerical_features),
             (
                 "categorical",
                 OneHotEncoder(handle_unknown="ignore", sparse_output=False),
@@ -95,7 +95,7 @@ def build_preprocessing_report(
         "",
         "## Stage 6 Scope",
         "- This report documents the preprocessing workflow for the Version 1 baseline models.",
-        "- Numerical features are passed through unchanged.",
+        "- Numerical features are standardized with `StandardScaler`.",
         "- Categorical features are one-hot encoded with `handle_unknown='ignore'` so train/test columns stay aligned.",
         "",
         "## Feature Groups",
@@ -122,6 +122,7 @@ def build_preprocessing_report(
             f"- Encoded feature count: {metadata['encoded_feature_count']}",
             "",
             "## Notes",
+            "- Numerical columns were scaled before modeling to support coefficient-based linear models and regularized models.",
             "- One-hot encoding was applied only to categorical columns.",
             "- `handle_unknown='ignore'` ensures unseen categories in the test set do not break the pipeline.",
             "- The encoded feature list was saved for later model interpretation and debugging.",
