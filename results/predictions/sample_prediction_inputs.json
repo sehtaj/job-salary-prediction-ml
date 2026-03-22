@@ -1,0 +1,30 @@
+[
+  {
+    "sample_name": "complete_sample",
+    "Job Title": "Senior Data Scientist",
+    "Job Description": "Build machine learning models with Python, SQL, Tableau, AWS, and Spark.",
+    "Rating": 4.1,
+    "Size": "1001 to 5000 employees",
+    "Industry": "Biotech & Pharmaceuticals",
+    "Sector": "Biotech & Pharmaceuticals",
+    "Revenue": "$1 to $5 billion (USD)",
+    "Type of ownership": "Company - Private",
+    "job_state": "CA",
+    "hourly": 0,
+    "python_yn": 1,
+    "R_yn": 0,
+    "spark": 1,
+    "aws": 1,
+    "excel": 1,
+    "company_age": 18
+  },
+  {
+    "sample_name": "incomplete_sample",
+    "Job Title": "Data Analyst",
+    "Rating": 3.6,
+    "Industry": "Insurance Carriers",
+    "job_state": "TX",
+    "python_yn": "yes",
+    "aws": 0
+  }
+]
