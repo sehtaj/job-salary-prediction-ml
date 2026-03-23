@@ -4,3 +4,4 @@ __pycache__/
 results/eda/.mplconfig/
 results/evaluation/.mplconfig/
 results/feature_importance/.mplconfig/
+results/diagnostics/.mplconfig/
