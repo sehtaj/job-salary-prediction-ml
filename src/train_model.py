@@ -6,11 +6,15 @@ from pathlib import Path
 
 import joblib
 import pandas as pd
+from sklearn.model_selection import RandomizedSearchCV
 from sklearn.pipeline import Pipeline
 
 from src.model_registry import (
     BASELINE_RANDOM_FOREST_PARAMS,
     LASSO_REGULARIZATION_ALPHAS,
+    RANDOM_FOREST_CV,
+    RANDOM_FOREST_RANDOM_SEARCH_ITERATIONS,
+    RANDOM_FOREST_SEARCH_SPACE,
     RANDOM_STATE,
     RIDGE_CV,
     RIDGE_REGULARIZATION_ALPHAS,
@@ -50,7 +54,22 @@ def build_training_pipelines(X_train: pd.DataFrame) -> dict[str, Pipeline]:
 
 def train_pipelines(pipelines: dict[str, Pipeline], X_train: pd.DataFrame, y_train: pd.Series) -> None:
     """Fit each baseline pipeline on the training split."""
-    for pipeline in pipelines.values():
+    for model_name, pipeline in pipelines.items():
+        if model_name == "random_forest":
+            search = RandomizedSearchCV(
+                estimator=pipeline,
+                param_distributions=RANDOM_FOREST_SEARCH_SPACE,
+                n_iter=RANDOM_FOREST_RANDOM_SEARCH_ITERATIONS,
+                cv=RANDOM_FOREST_CV,
+                scoring="neg_root_mean_squared_error",
+                random_state=RANDOM_STATE,
+                n_jobs=1,
+                refit=True,
+            )
+            search.fit(X_train, y_train)
+            pipelines[model_name] = search.best_estimator_
+            continue
+
         pipeline.fit(X_train, y_train)
 
 
@@ -104,11 +123,18 @@ def build_training_report(
         f"- Lasso selected alpha: {pipelines['lasso_regression'].named_steps['model'].alpha_}",
         "",
         "## Random Forest Configuration",
-        f"- `n_estimators={BASELINE_RANDOM_FOREST_PARAMS['n_estimators']}`",
-        f"- `max_depth={BASELINE_RANDOM_FOREST_PARAMS['max_depth']}`",
-        f"- `min_samples_split={BASELINE_RANDOM_FOREST_PARAMS['min_samples_split']}`",
-        f"- `min_samples_leaf={BASELINE_RANDOM_FOREST_PARAMS['min_samples_leaf']}`",
+        f"- baseline `n_estimators={BASELINE_RANDOM_FOREST_PARAMS['n_estimators']}`",
+        f"- baseline `max_depth={BASELINE_RANDOM_FOREST_PARAMS['max_depth']}`",
+        f"- baseline `min_samples_split={BASELINE_RANDOM_FOREST_PARAMS['min_samples_split']}`",
+        f"- baseline `min_samples_leaf={BASELINE_RANDOM_FOREST_PARAMS['min_samples_leaf']}`",
         f"- `random_state={BASELINE_RANDOM_FOREST_PARAMS['random_state']}`",
+        f"- tuning search iterations: {RANDOM_FOREST_RANDOM_SEARCH_ITERATIONS}",
+        f"- tuning cross-validation: {RANDOM_FOREST_CV.get_n_splits()}-fold shuffled CV",
+        f"- tuned `n_estimators={pipelines['random_forest'].named_steps['model'].n_estimators}`",
+        f"- tuned `max_depth={pipelines['random_forest'].named_steps['model'].max_depth}`",
+        f"- tuned `min_samples_split={pipelines['random_forest'].named_steps['model'].min_samples_split}`",
+        f"- tuned `min_samples_leaf={pipelines['random_forest'].named_steps['model'].min_samples_leaf}`",
+        f"- tuned `max_features={pipelines['random_forest'].named_steps['model'].max_features}`",
         "",
         "## Saved Model Artifacts",
     ]
@@ -122,7 +148,7 @@ def build_training_report(
             "## Notes",
             "- The Linear Regression model provides a simple baseline for comparison.",
             "- Ridge now uses a denser logarithmic alpha grid with shuffled 10-fold cross-validation to make regularization tuning more stable.",
-            "- The Random Forest hyperparameters were chosen as a strong initial baseline and can be tuned later if evaluation suggests it.",
+            "- Random Forest is tuned with a focused randomized search over the highest-impact tree hyperparameters rather than a brute-force grid.",
             "- Final model comparison happens in Stage 9 using the held-out test set.",
         ]
     )

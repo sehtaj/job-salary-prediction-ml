@@ -11,6 +11,7 @@ RANDOM_STATE = 42
 RIDGE_REGULARIZATION_ALPHAS = np.logspace(-4, 4, 81)
 LASSO_REGULARIZATION_ALPHAS = [0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
 RIDGE_CV = KFold(n_splits=10, shuffle=True, random_state=RANDOM_STATE)
+RANDOM_FOREST_CV = KFold(n_splits=5, shuffle=True, random_state=RANDOM_STATE)
 BASELINE_RANDOM_FOREST_PARAMS = {
     "n_estimators": 300,
     "max_depth": None,
@@ -19,6 +20,14 @@ BASELINE_RANDOM_FOREST_PARAMS = {
     "random_state": RANDOM_STATE,
     "n_jobs": -1,
 }
+RANDOM_FOREST_SEARCH_SPACE = {
+    "model__n_estimators": [200, 300, 400, 600, 800],
+    "model__max_depth": [None, 8, 12, 16, 20, 30],
+    "model__min_samples_split": [2, 5, 10, 15],
+    "model__min_samples_leaf": [1, 2, 4, 8],
+    "model__max_features": ["sqrt", "log2", 0.5, 0.75, 1.0],
+}
+RANDOM_FOREST_RANDOM_SEARCH_ITERATIONS = 30
 
 
 def build_linear_regression_model() -> LinearRegression:
