@@ -1,172 +1,172 @@
 feature_name,importance
-categorical__job_title_group_data_analyst,0.1295031141045827
-categorical__job_seniority_mid,0.10165799097282938
-numerical__hourly,0.08631099811973039
-categorical__job_state_CA,0.0848478836804881
-numerical__Rating,0.06690796401615592
-numerical__company_age,0.053232833821998095
-categorical__job_title_group_data_scientist,0.03525292827911953
-numerical__python_yn,0.020808938938176844
-categorical__job_seniority_entry,0.020426733938817814
-categorical__job_seniority_principal,0.019183790317925192
-categorical__job_seniority_senior,0.017864327948786955
-categorical__job_state_DC,0.017786524504180754
-categorical__Industry_Brokerage Services,0.013598432683498241
-categorical__Industry_Enterprise Software & Network Solutions,0.012833656203049033
-categorical__Industry_Investment Banking & Asset Management,0.011499049699940015
-numerical__excel,0.0100286961328113
-categorical__Industry_Research & Development,0.009615255956805747
-numerical__tableau_yn,0.009365770082146051
-categorical__job_title_group_leadership,0.009227585439132822
-numerical__spark,0.008827409012009515
-categorical__Type of ownership_Nonprofit Organization,0.007816784780583326
-categorical__Revenue_$500 million to $1 billion (USD),0.007709386847977009
-numerical__aws,0.007665707210071749
-categorical__Type of ownership_Company - Public,0.007330366906991098
-numerical__sql_yn,0.00693037854892784
-categorical__Revenue_Unknown,0.006780015836313499
-categorical__Industry_Consulting,0.00629790514266497
-categorical__job_state_NY,0.006162729355879899
-categorical__Sector_Information Technology,0.00601342608620647
-categorical__Industry_IT Services,0.0059931449303056855
-categorical__Size_10000+ employees,0.005911845215452072
-categorical__job_title_group_data_engineer,0.005896491174547234
-categorical__Type of ownership_Subsidiary or Business Segment,0.005539512746656841
-categorical__Revenue_$1 to $2 billion (USD),0.005505174868905994
-categorical__Revenue_$100 to $500 million (USD),0.00542580538464223
-categorical__job_seniority_lead,0.005234003451237932
-categorical__job_state_MA,0.0051375779357043265
-categorical__Size_51 to 200 employees,0.005109573043751965
-categorical__job_title_group_other,0.005067604436997559
-categorical__Size_501 to 1000 employees,0.004982959134620716
-categorical__Type of ownership_Company - Private,0.004913669920582409
-categorical__Sector_Business Services,0.004898650855275305
-categorical__job_state_AL,0.004822001364040036
-categorical__Industry_Computer Hardware & Software,0.00456421350670473
-categorical__Size_201 to 500 employees,0.004243776040278302
-categorical__Industry_Food & Beverage Manufacturing,0.004185841939343974
-categorical__Revenue_$10+ billion (USD),0.00417678727876645
-categorical__Size_1001 to 5000 employees,0.00375895140386704
-categorical__Revenue_$5 to $10 million (USD),0.0035729149788472675
-categorical__job_title_group_machine_learning,0.003344083585485709
-categorical__Revenue_$5 to $10 billion (USD),0.0033061057509491793
-categorical__Sector_Retail,0.0031188650799938143
-categorical__job_title_group_research_scientist,0.0029637513745511073
-categorical__Industry_Biotech & Pharmaceuticals,0.002935396496038587
-categorical__job_state_IN,0.0029216096874913017
-categorical__job_seniority_director,0.0028634820859552903
-categorical__Size_Unknown,0.002787757318992242
-categorical__Revenue_$10 to $25 million (USD),0.0026173152900892302
-categorical__Size_5001 to 10000 employees,0.00256671626421764
-categorical__Industry_Architectural & Engineering Services,0.0024506355433942945
-categorical__Revenue_$50 to $100 million (USD),0.0023693513555920875
-"categorical__Industry_Department, Clothing, & Shoe Stores",0.002365620969104488
-categorical__Industry_Internet,0.00220629288214891
-categorical__Sector_Insurance,0.002089734670416244
-categorical__job_state_TX,0.00208198712563418
-categorical__job_state_VA,0.001985835621370382
-categorical__job_state_MO,0.001901551797577804
-categorical__Sector_Biotech & Pharmaceuticals,0.0018660568423781532
-categorical__Size_1 to 50 employees,0.0017792939326149767
-categorical__Revenue_$25 to $50 million (USD),0.001702357395031647
-categorical__Revenue_$2 to $5 billion (USD),0.0016706234886593012
-categorical__job_state_AZ,0.0015732863960444495
-categorical__Industry_Staffing & Outsourcing,0.00151967684893866
-categorical__job_state_MD,0.001506284105288365
-categorical__job_state_NE,0.0014813236546963515
-categorical__Industry_Insurance Carriers,0.001430323267043302
-categorical__Sector_Finance,0.001425812144143112
-categorical__Industry_Energy,0.0014198270458685902
-categorical__job_state_PA,0.0014059866901809668
-categorical__job_state_TN,0.0013798250484786394
-categorical__Industry_Wholesale,0.0013709945448577721
-categorical__job_state_RI,0.001282252547292859
-categorical__job_state_NJ,0.0012381504115583967
-categorical__Industry_Advertising & Marketing,0.0011865786880394544
-categorical__job_state_OH,0.0011638968229527647
-categorical__Type of ownership_Hospital,0.001036825178575676
-categorical__job_state_FL,0.0010001633800304935
-categorical__job_state_WA,0.0009493882018163767
-categorical__job_state_NC,0.000945878251855846
-categorical__Industry_Financial Transaction Processing,0.0009302456049630958
-"categorical__Sector_Oil, Gas, Energy & Utilities",0.0009293908982382413
-categorical__Sector_Aerospace & Defense,0.0009159604536954486
-categorical__job_state_IL,0.0008290135211730213
-categorical__Industry_Aerospace & Defense,0.0007763942341721989
-categorical__Industry_Unknown,0.000769150350053218
-categorical__Sector_Manufacturing,0.0007576023170848516
-categorical__Industry_Health Care Services & Hospitals,0.0007239636626926763
-categorical__Type of ownership_Government,0.0007234509804860466
-categorical__Sector_Unknown,0.0007005961431891955
-categorical__Sector_Health Care,0.0006760946101728668
-categorical__Sector_Education,0.0005714125988388655
-categorical__Industry_Lending,0.0005558534688813808
-categorical__Industry_Consumer Products Manufacturing,0.0005332092506970663
-categorical__job_state_LA,0.00047784914050911934
-categorical__Revenue_Less than $1 million (USD),0.00044992038487564565
-categorical__Sector_Media,0.0004485180125274054
-categorical__job_state_WI,0.00044471373685253337
-categorical__job_state_GA,0.0004374640892052715
-categorical__Sector_Travel & Tourism,0.00043221650825955036
-categorical__Industry_Other Retail Stores,0.0004122234040751536
-categorical__job_state_CO,0.00038883766554824055
-categorical__job_state_CT,0.00035288060629569976
-categorical__Industry_Auctions & Galleries,0.0003392568256027248
-categorical__Industry_Colleges & Universities,0.00033715164483170257
-categorical__Sector_Transportation & Logistics,0.0003289523864644725
-categorical__Industry_Travel Agencies,0.00031358156815421866
-categorical__Sector_Consumer Services,0.00031357381452822784
-categorical__Industry_TV Broadcast & Cable Networks,0.000310011795742704
-categorical__Industry_Social Assistance,0.00030154245645865497
-categorical__Revenue_$1 to $5 million (USD),0.0002892609142154625
-categorical__Sector_Non-Profit,0.0002649361708648641
-categorical__Industry_Consumer Product Rental,0.00026271269330406315
-categorical__Industry_Banks & Credit Unions,0.00025656143184656994
-categorical__Industry_Federal Agencies,0.00025251417873953035
-categorical__Type of ownership_College / University,0.00025172632605297604
-categorical__job_state_LOS ANGELES,0.0002201538919421032
-"categorical__Industry_Health, Beauty, & Fitness",0.00021056572683761173
-categorical__Industry_Gambling,0.0002089773891231477
-categorical__Industry_K-12 Education,0.0001977828753582025
-categorical__Sector_Government,0.00019274149212642996
-categorical__job_state_UT,0.00018407047031985198
-categorical__Industry_Trucking,0.00017744710633769243
-categorical__job_state_MI,0.00017555769261024857
-categorical__Industry_Insurance Agencies & Brokerages,0.00016985760353743662
-categorical__Industry_Security Services,0.00016950091242115626
-categorical__job_state_IA,0.00015212004336146774
-"categorical__Sector_Construction, Repair & Maintenance",0.00013135379372723377
-categorical__job_state_MN,0.000130623431859093
-categorical__Industry_Beauty & Personal Accessories Stores,0.000128015905115326
-categorical__Industry_Logistics & Supply Chain,0.00011687225527231646
-categorical__Industry_Education Training Services,0.00011557653103145708
-categorical__Industry_Video Games,0.00010730467904979427
-categorical__Sector_Telecommunications,0.00010616879985511928
-categorical__Industry_Transportation Equipment Manufacturing,0.00010601512675356829
-numerical__R_yn,0.0001059541095813771
-"categorical__Sector_Arts, Entertainment & Recreation",9.857200626706019e-05
-categorical__Industry_Telecommunications Services,9.626889865023126e-05
-categorical__Industry_Industrial Manufacturing,9.194892853306062e-05
-categorical__Industry_Health Care Products Manufacturing,9.155819370298648e-05
-categorical__Industry_Religious Organizations,8.662234768495366e-05
-categorical__Industry_Accounting,8.538586304990143e-05
-categorical__job_state_NM,7.979907568761518e-05
-categorical__Industry_Financial Analytics & Research,7.138416664933033e-05
-categorical__job_state_KY,6.22749235546092e-05
-categorical__Sector_Accounting & Legal,6.172114679242433e-05
-categorical__job_state_OR,5.0538009155018516e-05
-categorical__Industry_Construction,4.800551238387804e-05
-categorical__Type of ownership_Unknown,4.611829871543438e-05
-categorical__Type of ownership_Other Organization,4.371493249283698e-05
-categorical__Industry_Real Estate,3.202922394982573e-05
-categorical__job_state_KS,2.9113281326678757e-05
-categorical__Sector_Real Estate,2.7485937417658402e-05
-categorical__Industry_Sporting Goods Stores,1.9596662244215622e-05
-categorical__Industry_Farm Support Services,1.817011721116095e-05
-categorical__job_state_ID,1.5036211495646406e-05
-categorical__Industry_Gas Stations,1.2619627302168225e-05
-categorical__Type of ownership_School / School District,8.715895333390139e-06
-categorical__Industry_Transportation Management,6.985721505709759e-06
-categorical__Sector_Agriculture & Forestry,6.521380936438055e-06
-categorical__Industry_Stock Exchanges,4.36109082135481e-06
-categorical__job_state_DE,2.0668979459007544e-06
+categorical__job_title_group_data_analyst,0.14248983837954188
+categorical__job_seniority_mid,0.10489554703568321
+categorical__job_state_CA,0.09934088539408688
+numerical__hourly,0.09091213621115127
+numerical__Rating,0.05204763944814112
+categorical__job_title_group_data_scientist,0.0396922297410471
+numerical__company_age,0.03961126603726369
+categorical__job_seniority_senior,0.029452509923691847
+categorical__job_seniority_principal,0.023867514942503328
+numerical__python_yn,0.023192822900638926
+categorical__job_seniority_entry,0.018100697203965056
+categorical__job_state_DC,0.01805772592227073
+categorical__Industry_Investment Banking & Asset Management,0.01152234781659818
+categorical__Industry_Enterprise Software & Network Solutions,0.011411008958047666
+categorical__Type of ownership_Nonprofit Organization,0.010810048707898446
+categorical__Industry_Research & Development,0.00972935248136177
+categorical__Industry_Consulting,0.009384432648191339
+categorical__job_title_group_leadership,0.009091437085949118
+categorical__job_seniority_lead,0.009029557094800906
+categorical__Industry_Brokerage Services,0.008825526710550511
+categorical__job_seniority_director,0.007440024522093389
+categorical__Revenue_$500 million to $1 billion (USD),0.007342856086002756
+numerical__spark,0.006591461405277363
+categorical__Type of ownership_Company - Public,0.006041948407177042
+numerical__aws,0.005979974599627323
+categorical__job_title_group_data_engineer,0.0058119000018336045
+categorical__Sector_Information Technology,0.005540572812465306
+categorical__Revenue_$5 to $10 million (USD),0.005539621429219481
+categorical__Revenue_$1 to $2 billion (USD),0.00553874738752267
+categorical__Industry_IT Services,0.005490806627201083
+numerical__excel,0.005134701668983332
+categorical__job_state_NY,0.005065648105803177
+categorical__Type of ownership_Subsidiary or Business Segment,0.004992129463211607
+categorical__job_state_AL,0.004904197831535209
+categorical__Industry_Food & Beverage Manufacturing,0.004814241362511051
+numerical__tableau_yn,0.00480754680673996
+categorical__job_title_group_other,0.004526552851629882
+categorical__Sector_Health Care,0.004521674298810608
+categorical__Sector_Business Services,0.004468053883009817
+categorical__Revenue_$10+ billion (USD),0.0041743414492411614
+categorical__Industry_Health Care Services & Hospitals,0.0040248507189461595
+categorical__Size_Unknown,0.003943409876651699
+categorical__Revenue_$10 to $25 million (USD),0.0038335529572820835
+categorical__job_state_MA,0.003721397337731707
+categorical__Size_501 to 1000 employees,0.0037200920307035846
+numerical__sql_yn,0.0036476624255233725
+categorical__job_title_group_machine_learning,0.0034927659390227607
+categorical__Sector_Biotech & Pharmaceuticals,0.0034886418961122094
+categorical__Industry_Computer Hardware & Software,0.0033814774386486217
+categorical__Industry_Biotech & Pharmaceuticals,0.003230316733942999
+categorical__Size_10000+ employees,0.0031877643510777815
+categorical__Sector_Retail,0.002960324294567783
+categorical__Size_1001 to 5000 employees,0.00292120290440844
+categorical__Industry_Architectural & Engineering Services,0.0029015095646505594
+categorical__Revenue_$100 to $500 million (USD),0.002892757596001794
+"categorical__Industry_Department, Clothing, & Shoe Stores",0.0028579388981826927
+categorical__job_state_IN,0.0027412764332974287
+categorical__Revenue_Unknown,0.002689438860819733
+categorical__Size_51 to 200 employees,0.0024975432758023775
+categorical__Size_201 to 500 employees,0.0024209857849829125
+categorical__job_state_MO,0.0023628495279222426
+categorical__Revenue_$5 to $10 billion (USD),0.002335596664772742
+categorical__job_title_group_research_scientist,0.0022912535495721565
+categorical__Type of ownership_Company - Private,0.0021457947154513548
+categorical__Revenue_$50 to $100 million (USD),0.0019910202186849747
+categorical__Sector_Finance,0.0019684151155280162
+categorical__Industry_Wholesale,0.0017439572865474637
+categorical__job_state_TX,0.0016388738423859842
+categorical__job_state_AZ,0.001587928212380103
+categorical__Industry_Staffing & Outsourcing,0.0015727237149649803
+categorical__Size_5001 to 10000 employees,0.0015506939565344668
+categorical__job_state_NE,0.00153234406594265
+categorical__Revenue_$25 to $50 million (USD),0.0015058656931719455
+categorical__Industry_Energy,0.0013957096850688825
+categorical__job_state_VA,0.0013650574076555589
+categorical__job_state_NJ,0.0013571928638741139
+categorical__Type of ownership_Government,0.001297335182278164
+categorical__job_state_TN,0.001279174019539475
+categorical__Size_1 to 50 employees,0.0011631200571889388
+categorical__Sector_Insurance,0.001161709363803063
+categorical__job_state_WA,0.00116101771231875
+categorical__job_state_RI,0.0011571578090346204
+categorical__Industry_Financial Transaction Processing,0.0011322537421201515
+categorical__Industry_Advertising & Marketing,0.0011058378037932042
+categorical__Industry_Internet,0.0010890468592224675
+categorical__Industry_Insurance Carriers,0.001060790281320877
+"categorical__Sector_Oil, Gas, Energy & Utilities",0.0010522875908479062
+categorical__Type of ownership_Hospital,0.0009964789059748451
+categorical__job_state_LA,0.000957570691615152
+categorical__Revenue_$2 to $5 billion (USD),0.0009475964699294749
+categorical__Sector_Manufacturing,0.00089990964278275
+"categorical__Sector_Construction, Repair & Maintenance",0.0008801176758674432
+categorical__job_state_IL,0.0008685134350065139
+categorical__job_state_FL,0.0008522424909169773
+categorical__Industry_Other Retail Stores,0.0006896664246694478
+categorical__Sector_Unknown,0.0006623977287695246
+categorical__job_state_PA,0.0006479012111234837
+categorical__Industry_Consumer Products Manufacturing,0.000593526761131745
+categorical__job_state_NC,0.0005785574701154861
+categorical__Industry_Social Assistance,0.0005463553596878674
+categorical__job_state_CO,0.0005459077311956329
+categorical__Industry_Unknown,0.000538158411745231
+categorical__job_state_MD,0.0005271099162047276
+categorical__Sector_Media,0.0005255739426728563
+categorical__job_state_WI,0.0005232965581515918
+categorical__Sector_Education,0.0005004938254202042
+categorical__Industry_Lending,0.0004989830813071102
+categorical__job_state_DE,0.0004982210341294861
+categorical__Sector_Government,0.0004637695418783658
+categorical__Industry_TV Broadcast & Cable Networks,0.0004627379787338512
+categorical__Type of ownership_College / University,0.00042466484555142667
+categorical__Sector_Non-Profit,0.00041151837925292153
+categorical__Sector_Aerospace & Defense,0.00040801641664381876
+categorical__Industry_Construction,0.0004008763030714254
+categorical__Industry_Colleges & Universities,0.0003851556031075362
+categorical__job_state_OH,0.00037942960227406024
+categorical__Industry_Auctions & Galleries,0.0003668271173958564
+categorical__Revenue_Less than $1 million (USD),0.00036490562986750126
+categorical__Industry_Travel Agencies,0.0003585162428594486
+categorical__job_state_CT,0.0003568160692488855
+categorical__Industry_Aerospace & Defense,0.000329031295427854
+categorical__Industry_Federal Agencies,0.0003194437268709339
+categorical__Sector_Travel & Tourism,0.00031416456915596305
+categorical__Sector_Consumer Services,0.00028066099505095864
+categorical__Sector_Transportation & Logistics,0.00027392091742375045
+categorical__Industry_K-12 Education,0.0002695728137671002
+categorical__Industry_Banks & Credit Unions,0.0002623544220952366
+categorical__Revenue_$1 to $5 million (USD),0.00025175500253882195
+categorical__job_state_UT,0.0002461512895728322
+categorical__job_state_GA,0.00020615703937509297
+categorical__Industry_Beauty & Personal Accessories Stores,0.00019737495573820288
+categorical__Industry_Consumer Product Rental,0.000196101689171282
+categorical__Industry_Video Games,0.00018027033217397643
+categorical__Industry_Trucking,0.00017817640717842642
+categorical__job_state_LOS ANGELES,0.00013288436777986293
+categorical__Industry_Gambling,0.00012913292557403843
+categorical__Industry_Education Training Services,0.00011939117567409587
+"categorical__Industry_Health, Beauty, & Fitness",0.00011613971754924431
+categorical__job_state_NM,0.00010081367869173173
+categorical__Industry_Logistics & Supply Chain,9.625031730265883e-05
+categorical__Industry_Insurance Agencies & Brokerages,8.919199642911047e-05
+categorical__job_state_IA,7.866982510596351e-05
+categorical__job_state_MN,7.544992204256894e-05
+categorical__Industry_Religious Organizations,7.381776593344507e-05
+numerical__R_yn,7.198165394234929e-05
+categorical__Industry_Security Services,7.059150767739807e-05
+categorical__job_state_MI,7.037416155954688e-05
+categorical__Industry_Industrial Manufacturing,5.311594162834456e-05
+categorical__Industry_Health Care Products Manufacturing,5.253822626035549e-05
+categorical__Industry_Financial Analytics & Research,4.810649563877967e-05
+categorical__Type of ownership_Other Organization,4.731895855883976e-05
+categorical__Industry_Transportation Equipment Manufacturing,4.7200793353822465e-05
+categorical__job_state_KY,3.4289652439493656e-05
+categorical__Type of ownership_Unknown,2.3581836535010045e-05
+categorical__Industry_Telecommunications Services,2.0505733750511957e-05
+categorical__Industry_Accounting,1.5805958711510497e-05
+categorical__Sector_Accounting & Legal,1.335074853128853e-05
+"categorical__Sector_Arts, Entertainment & Recreation",1.2397071866871132e-05
+categorical__job_state_KS,1.1285982342003126e-05
+categorical__Industry_Gas Stations,1.1181741190561568e-05
+categorical__Sector_Telecommunications,1.1096843064941135e-05
+categorical__Industry_Stock Exchanges,1.0708845348790937e-05
+categorical__Industry_Sporting Goods Stores,8.596728704474507e-06
+categorical__job_state_ID,8.435234599760025e-06
+categorical__Sector_Real Estate,8.243730520465587e-06
+categorical__Industry_Real Estate,8.234634582994211e-06
+categorical__Sector_Agriculture & Forestry,4.6642316232460065e-06
+categorical__Industry_Farm Support Services,3.5440765538355227e-06
+categorical__job_state_OR,1.975060744646571e-06
+categorical__Type of ownership_School / School District,7.426007836987847e-07
+categorical__Industry_Transportation Management,0.0

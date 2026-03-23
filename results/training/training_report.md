@@ -27,11 +27,18 @@
 - Lasso selected alpha: 1.0
 
 ## Random Forest Configuration
-- `n_estimators=300`
-- `max_depth=None`
-- `min_samples_split=2`
-- `min_samples_leaf=1`
+- baseline `n_estimators=300`
+- baseline `max_depth=None`
+- baseline `min_samples_split=2`
+- baseline `min_samples_leaf=1`
 - `random_state=42`
+- tuning search iterations: 30
+- tuning cross-validation: 5-fold shuffled CV
+- tuned `n_estimators=800`
+- tuned `max_depth=None`
+- tuned `min_samples_split=15`
+- tuned `min_samples_leaf=1`
+- tuned `max_features=0.5`
 
 ## Saved Model Artifacts
 - `linear_regression`: `models/linear_regression_pipeline.joblib`
@@ -42,5 +49,5 @@
 ## Notes
 - The Linear Regression model provides a simple baseline for comparison.
 - Ridge now uses a denser logarithmic alpha grid with shuffled 10-fold cross-validation to make regularization tuning more stable.
-- The Random Forest hyperparameters were chosen as a strong initial baseline and can be tuned later if evaluation suggests it.
+- Random Forest is tuned with a focused randomized search over the highest-impact tree hyperparameters rather than a brute-force grid.
 - Final model comparison happens in Stage 9 using the held-out test set.

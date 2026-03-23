@@ -7,8 +7,8 @@
 ## Model Metrics
 - `ridge_regression`: MSE=962.6841, RMSE=31.0272, R²=0.4181
 - `linear_regression`: MSE=1026.3917, RMSE=32.0373, R²=0.3796
+- `random_forest`: MSE=1109.7804, RMSE=33.3134, R²=0.3292
 - `lasso_regression`: MSE=1113.6436, RMSE=33.3713, R²=0.3269
-- `random_forest`: MSE=1235.4839, RMSE=35.1495, R²=0.2532
 
 ## Best Model
 - Best-performing model: `ridge_regression`
